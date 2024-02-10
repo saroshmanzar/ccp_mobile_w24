@@ -4,23 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Pets</title>
 </head>
 
 <body>
     <header>
-        <a href="">Skip to Main Content</a>
+        <a class="skip" href="#main">Skip to Main Content</a>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="pets.html">Pets</a></li>
+                <li><a class="active" href="pets.html">Pets</a></li>
                 <li><a href="recipes.html">Recipes</a></li>
                 <li><a href="travel.html">Travel</a></li>
             </ul>
         </nav>
         <h1>Pets</h1>
     </header>
-    <main>
+    <main id="main">
         <div>
             <h2>Bacon Q Dog</h2>
             <img src="images/bacon.jpg" width="400" alt="Brown labradoodle wearing colorful lei">
@@ -32,19 +34,21 @@
             <P>At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his
                 energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a
                 ride." There is also a lot of rolling. Lots and lots of rolling.</P>
-            <h3>Photo Gallery</h3>
-            <img src="images/bacon_bandana.JPG" width="200" alt="Brown labradoodle wearing an orange bandana">
-            <img src="images/bacon_graduation.JPG" width="200"
-                alt="Small labradoodle puppy wearing a graduation cap and gown">
-            <img src="images/bacon_halloween.JPG" width="200" alt="Brown labradoodle wearing a pirate costume">
-
-            <h3>Likes</h3>
-            <ul>
-                <li>Belly rubs</li>
-                <li>Playing tug-of-war</li>
-                <li>Sneaking onto the couch</li>
-            </ul>
-            <!-- Jackie Wolf -->
+            <h3> Photo Gallery</h3>
+            <div class="gallery">
+                <img src="images/bacon_bandana.JPG" width="200" alt="Brown labradoodle wearing an orange bandana">
+                <img src="images/bacon_graduation.JPG" width="200"
+                    alt="Small labradoodle puppy wearing a graduation cap and gown">
+                <img src="images/bacon_halloween.JPG" width="200" alt="Brown labradoodle wearing a pirate costume">
+            </div>
+        </div>
+        <h3>Likes</h3>
+        <ul>
+            <li>Belly rubs</li>
+            <li>Playing tug-of-war</li>
+            <li>Sneaking onto the couch</li>
+        </ul>
+        <!-- Jackie Wolf -->
         </div>
         <div>
             <h2>Fitz</h2>
@@ -56,13 +60,14 @@
             <P>Loves barking up trees, running around on the lawn, and digging in the dirt looking for moles. He
                 especially likes getting treats and whines when he comes inside and doesn’t get a snack.</P>
             <h3>Photo Gallery</h3>
-            <img src="images/Fitz_standing_on_chair.jpeg" width="200"
-                alt="Fitz standing on a wooden chair, looking at the camera.">
-            <img src="images/Fitz_sleeping.jpeg" width="200" alt="Fitz sleeping in a fuzzy dog bed.">
-            <img src="images/Fitz_on_the_lawn.jpeg" width="200" alt="Fitz laying out on the lawn in the grass.">
-            <img src="images/Fitz_laying_in_bed.jpeg" width="200"
-                alt="Fitz sleeping with his face buried in a plaid blanket, only his head is visible.">
-
+            <div class="gallery">
+                <img src="images/Fitz_standing_on_chair.jpeg" width="200"
+                    alt="Fitz standing on a wooden chair, looking at the camera.">
+                <img src="images/Fitz_sleeping.jpeg" width="200" alt="Fitz sleeping in a fuzzy dog bed.">
+                <img src="images/Fitz_on_the_lawn.jpeg" width="200" alt="Fitz laying out on the lawn in the grass.">
+                <img src="images/Fitz_laying_in_bed.jpeg" width="200"
+                    alt="Fitz sleeping with his face buried in a plaid blanket, only his head is visible.">
+            </div>
             <h3>Likes</h3>
             <ul>
                 <li>Belly rubs</li>
@@ -79,10 +84,11 @@
                 cuddle. He is very playful and loves to play with his toys. He is very curious and loves to explore. He
                 loves to play with his brother</p>
             <h3>Photo Gallery</h3>
-            <img src="images/ziggy_milk.jpg" width="400" alt="A black and white kitten drinking milk from a glass">
-            <img src="images/ziggy_baby.avif" width="400" alt="A black and white kitten">
-            <img src="images/ziggy_outside.avif" width="400" alt="A black and white cat outside">
-
+            <div class="gallery">
+                <img src="images/ziggy_milk.jpg" width="400" alt="A black and white kitten drinking milk from a glass">
+                <img src="images/ziggy_baby.avif" width="400" alt="A black and white kitten">
+                <img src="images/ziggy_outside.avif" width="400" alt="A black and white cat outside">
+            </div>
             <h3>Likes</h3>
             <ul>
                 <li>Playing with his toys</li>
@@ -97,10 +103,11 @@
             <p> Chewy is a 5 year old dog who resembles scooby doo from the popular kids cartoon! He loves to go for
                 walks, and enjoys running around in parks!</p>
             <h3>Photo Gallery</h3>
-            <img src="images/chewy_couch.jpg" width="400" alt="A brown dog by a brown couch">
-            <img src="images/chewy_puppy.jpg" width="400" alt="A brown puppy">
-            <img src="images/chewy_park.jpg" width="400" alt="A brown dog at the park">
-
+            <div class="gallery">
+                <img src="images/chewy_couch.jpg" width="400" alt="A brown dog by a brown couch">
+                <img src="images/chewy_puppy.jpg" width="400" alt="A brown puppy">
+                <img src="images/chewy_park.jpg" width="400" alt="A brown dog at the park">
+            </div>
             <h3>Likes</h3>
             <ul>
                 <li>Going for walks</li>
@@ -117,9 +124,11 @@
                 snuggles and purring contentedly. His curious eyes and gentle demeanor make him an endearing pet to all.
             </p>
             <h3>Photo Gallery</h3>
-            <img src="images/sun_jay_tree.jpg" width="400" alt="A gray siberian cat on a tree">
-            <img src="images/sun_jay_kitten.jpeg" width="400" alt="A gray siberian kitten">
-            <img src="images/sun_jay_snow.jpg" width="400" alt="A gray siberian cat with snow around its face">
+            <div class="gallery">
+                <img src="images/sun_jay_tree.jpg" width="400" alt="A gray siberian cat on a tree">
+                <img src="images/sun_jay_kitten.jpeg" width="400" alt="A gray siberian kitten">
+                <img src="images/sun_jay_snow.jpg" width="400" alt="A gray siberian cat with snow around its face">
+            </div>
             <h3>Likes</h3>
             <ul>
                 <li>Playing with his toys</li>
