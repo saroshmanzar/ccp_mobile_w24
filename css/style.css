@@ -1,0 +1,48 @@
+body {
+    margin: 2%;
+    background: #b7e4f7
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    padding: 5px;
+}
+
+p {
+    line-height: 1em;
+}
+
+img {
+    border: 5px solid #011c28;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 0 30px 0 0;
+}
+
+
+li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
